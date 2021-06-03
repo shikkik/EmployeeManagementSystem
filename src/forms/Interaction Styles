@@ -1,0 +1,261 @@
+Interaction Styles 
+
+Command entry
+      Difficult to learn and to retain
+      Can be very efficient for trained users
+Finger pointing right Recommended for frequent users only (and for work under time pressure)
+
+
+Menus
+      Easy to learn and to retain
+      Slows experienced users down
+Finger pointing right    Recommended for all users when complemented by menu commands
+
+
+Direct manipulation
+      Relatively easy to learn, easy to retain
+      Restricted in scope
+Finger pointing right Recommended for all users when icons are labeled and when
+            direct manipulation is complemented by other interaction style(s)
+
+
+(Form fill-in)
+     Limited in scope
+
+(Natural-language interaction)
+    Technical limitations
+
+
+
+Interaction-style independent design principles
+ 
+Strive for consistency (constancy is a special type The linked image shows a sequence of screens that have non-constant elements)
+a) internal;
+b) external with metaphor, and other software
+Finger pointing rightleads to higher conformity with user expectations
+Provide advance information
+Provide immediate feedback
+Permit easy reversal of actions (undo)
+Prevent errors; offer help in case of errors
+Reduce short-term memory load The linked image shows a pop-up window that forces users to rely on their memories.  The linked image shows a pop-up window that forces users to rely on their memories (search term not listed anymore) The linked image shows a pop-up window that does NOT force users to rely on their memories (the search terms are repeated)
+Cater to user diversity; allow for personalization
+(Let the user be in control)  The linked image shows a screen interaction that suggests that the computer has an ego
+
+
+
+
+Advance information
+informs users about what is possible and what is not
+informs users about what will happen
+give users cues as to what action/input is correct
+indicates forseeable inconveniences for the user
+Aim:    prevent users from performing actions that would lead to errors or otherwise unexpected results.
+Form:  Advance information should be given through visual indicators rather than text. The linked image shows a Yahoo calendar. The top entry reads "Everybody please read this!" Chances are that hardly any user will notice this alert since it is not visually supported.
+ 
+Examples:
+
+Menu entries which currently cannot be selected should be visually distinguished from entries that can be activated.
+Objects in direct-interactive interfaces that currently cannot be accessed should be visually distinguished from objects that can be activated.
+The shape of the mouse symbol should indicate the action that will occur if the user clicks the mouse button. The linked image shows an assortment of different cursor shapes in the Macintosh operating system and the X-Windows widget set. This different shapes give advance information as to what will happen when the user clicks the mouse.
+Submenus should be shown when the mouse moves over the superordinate items. The linked image shows a hierarchical menu where the subordinate menu pops up when its item in the superordinate menu is touched by the mouse cursor.
+Required formats of keyboard entries should be indicated. The linked image shows a computer form where the required format of the entries is clearly indicated. 
+Potential adverse side effects of actions should be pointed out if the user may not be aware of them, and the user's permission be requested. The linked image shows a warning that the indexing operation that the user requested is likely to take some while. The user is advised to perform the operation during the night and asked whether he or she wants to carry out the action nevertheless. The linked image shows a warning that the indexing operation that the user requested is likely to take some while. The user is advised to perform the operation during the night and a
+
+
+
+
+Command interfaces
+Advantages:
+Hands remain on the keyboard
+Fast input
+Powerful language constructs possible ("print file1 file2 file3", wildcards, pipes, ...)
+Disadvantages:
+Difficult to learn
+Difficult to retain
+Guidelines:
+Use action-oriented command names that come in the first place, i.e. <command> <arg1> <arg2>...
+(e.g., "move a b" rather than "a move b" or "location a b")
+Use congruent names for antagonistic commands (Carroll 1982)
+Use consistent order of arguments
+Specifiy direct object in first argument (Barnard et al., 1982)
+Allow natural/consistent abbreviations for command names
+(e.g., "mv" for "move"; cf. Shneiderman 1998)
+Allow for variations in the syntax; tolerate spurious words (e.g., "mv a to b")
+Allow for the definition of aliases
+Provide command history
+Allow for the editing and re-entry of the last few commands
+If possible, allow multiple parameters and wildcards
+If possible, allow macro definition and programming
+
+ 
+
+
+
+Menu-based Interaction -- Overview
+ 
+3 basic activities:
+Navigation (in menu hierarchy, information resource, etc.)
+Selection (of data, parameters, etc.)
+Activation (of programs, documents, etc.)
+Selection made through mouse, number/character keys, function keys, cursor keys plus return key, rotating cursor symbol plus return key, touching on the screen, etc.
+Special case: "analog" menus The linked image shows several types of "analog" slikders
+Types of menus The linked image shows several types of menus, namely textual menus, a menu that can be activated with function keys, a pulldown menu, and a graphical menu
+Textual menus
+Graphical menus (icons)
+Combination of text and graphics
+
+ 
+Linear menus
+Menus with spatial layout Thumb pointing down Error "are you sure?" The linked image shows a menu with spatial layout in the shape of a table.
+Static menus (e.g., menu bar)
+Pull-down menu
+Pop-up menus
+Single vs. multiple choice The linked image shows hierarchical table-like menu. Depending on what the user selects in the first column, the items in the second and third column change.
+Isolated menus
+Connected menus (mostly hierarchical menus) The linked image shows a hierarchical menu where the lower-level menus are aligned to the right of the corresponding superordinate menu. The linked image shows hierarchical table-like menu. Depending on what the user selects in the first column, the items in the second and third column change.
+Pie menus The linked image shows a hierarchical menu where the lower-level menus are aligned to the right of the corresponding superordinate menu.
+
+
+
+
+
+
+ Guidelines for graphical menus The linked image shows several Microsoft Word toolbars.  The linked image shows the Apple dock
+Menu items (= "icons") should be recognizable and distinguishable within the normal viewing distance, under different light conditions.
+Should be esthetically pleasing
+
+Global properties (like form, color or size) are much more important than local properties (like details to increase likeness):
+Abstract icons become much faster selected than concrete icons. The linked image shows a word menu, a menu with distinctive/abstract icons, and a representational menu, all for the same basic word processing functionality The linked image shows the response time for word commands, distinctive icons and representational items as a function of menu size. Distinctive icons are best, independent of the menu size
+The selection speed for abstract items seems to be less dependent on the number of icons than is the case for concrete and textual items ("parallel search").
+Similar objects/functions should be assigned similar icons.
+Users should be able to easily understand the intended meaning of icons, or at least be able to learn it quickly.
+The addition of textual labels makes it easier for beginning users to learn, and for infrequent users to recognize, the graphical menu items.
+
+
+
+Guidelines for menu items
+ 
+The menu should have a short meaningful headline, preferably centered, in upper/lower case; unneccessary emphasis/embellishment should be avoided.
+Menus should show The linked image shows three menus that demonstrate the guidelines below
+the menu items that can be selected 
+the menu items that currently cannot be selected (deemphasized)
+the menu items that have already been selected
+the presence of submenus
+if applicable: the shortcut that can be used to select the item (as an alternative to selecting it with the mouse)
+if applicable: short and polite instructions on how to select items, formulated in terms of the user's task.
+Entries should be in upper/lower case; avoid unneccessary emphasis/embellishment.
+The difference of each entry to all other entries must be very clear (Schwartz & Norman, 1986). Finger pointing down
+If the name of an item consists of more than one word, the most significant word should come first.
+If letter codes are being used, the code should correspond to the first letter of the first word. If this is not possible, numeric codes should be used (Pellman, 1984) .
+To achieve external consistency with earlier versions or competitive products, menu items should be lexically identical (least there won't be a transfer effect; Foltz et al., 1988). Addition and ommission of menu entries is o.k.
+The error rate for items with text and icons combined is 50% less than for mere textual items (Muter and Mayson, 1986).
+Example of menu design:    
+
+
+
+
+
+
+Direct-manipulative interaction style
+ 
+The picture shows several components of a direct-interactive style (e.g., documents, folders, printer, garbage can)
+
+
+Characteristics
+
+Graphical interface objects that represent task objects/functions, or objects in the user's work environment.
+Selection and manipulation of interface objects through pointing device.
+One or more metaphors presented, of which most interface objects form part.
+Operations on task objects is performed through "congruent" operations on the interface objects.
+All options are normally available at all times.
+Important design requirements
+
+Consistent metaphor(s)
+Immediate feedback
+Icons should be clearly distinguishible through overall shape and color.
+The form of the interfaces objects (and the form of the mouse icon when hoovering above interfaces objects) indicate the operations that can be performed ("perceived affordance", "look and feel") The linked image shows the look and feel of windows in different operating systems. The linked image shows the look and feel of menus in different operating systems. The linked image shows button whose 3-dimensionality stems from its shape and lightening from upper left The linked image shows an assortment of different cursor shapes in the Macintosh operating system and the X-Windows widget set. This different shapes give advance information as to what will happen when the user clicks the mouse.
+
+
+
+
+
+
+Feedback
+ 
+Any action of the user should lead to an immediate reaction of the system (ideally after no more than 0.1 seconds)
+
+Examples:
+
+Menu entries, object icons, etc. should become highlighted when being touched by the cursor. The linked image shows different menus where the currently touched item is marked out (by dark background), and previously selected options are checked.
+Selected items in menus should be marked.
+Path selection in navigation hierarchy should be visualized.
+                                         The image shows the navigation path in Microsoft Explorer
+Errors in user input should be reported immediately.
+System should inform the user about the status with status indicators, e.g.
+clock with rotating hands
+description of what is going on The linked image shows a warning at the Hertz website that informs the user that the loading of data may take a while , and
+even better progress indicators (e.g., bar that progressivly indicates task completion).
+                                      The image shows a bar that progressively indicates the amount of files that still need to be deleted.
+Feedback can be visual, auditory and tactile.
+(users should be able to turn off auditory output)
+System reactions should always have about the same latency.
+ 
+
+
+
+
+
+
+Form-fills
+ 
+Useful for entering large amounts of data
+Consist of tables and label/data fields 
+Users read form-fills selectively 
+
+
+Overall layout
+Switch at most once between tables and label/data fields.
+If user enters data from a paper document, its layout should be mirrored by the screen layout.
+Left-align labels, data fields, and columns of tables
+Position labels close to the fields
+Finger pointing to the rightleft-align labels or use visual connectors if distance is too wide The linked image shows labels and data fields that have been leftaligned in columns. If the space between columns gets larger, periods can be used to indicate the line, or the labels may be right-aligned.
+Format
+Allow for a space of at least two characters between columns, and one character between data and surrounding frame.
+Insert a blank line after about every fifth line of data. The linked image shows two ways to indicate field lenght: dots and background color
+Split long alphanumeric codes in groups of 2-4 characters.
+ 
+Allow for flexibility in the input format    The linked image points to the picture of an input field whose format is unnecessarily restrictive The linked image shows two ways to indicate field lenght: dots and background color
+If a specific format of the user input is required, communicate this to the user:
+Use underscores, periods etc. to indicate the exact or maximum input length. The linked image shows two ways to indicate field lenght: dots and background color
+Units (like $, ft., mph) and separators (like "-", "/") should be part of the form
+(i.e., users should not be required to enter them ).
+Use short ancillary explanations like "dd/mm/yy" or "(example: 12/08/59)".
+If input must meet constraints, point those out The linked image shows two ways to indicate field lenght: dots and background color
+Mark fields where entry is required (e.g., by *, ?, or color), or group such fields separately.The linked image shows three ways to indicate that fields must be filled in: marking them (e.g. with color or by a prefix), and separating required from optional fields.  
+Hitting the tab key should bring the user to the next required entry field (or possibly even jump there automatically when a field has been completed The linked image shows two ways to indicate field lenght: dots and background color).
+
+Automated input
+Fill in data fields with default values or with the most recently entered value.
+Enter field values automatically if they can be inferred from other user inputser:
+e.g., do not force user to enter both DOB and age
+Allow for abreviated entries which can be expanded by hitting a single key
+Automatic expansion is also o.k., but more difficult for beginners
+If the result is not unique, show available alternatives. The linked image shows ways to expand still incomplete to yield the unique or all permissible expansions
+Automatically entered values should however never have dangerous effects.
+
+Alphabetical listings
+Alphabetical listings should be arranged vertically, possibly in several parallel columns. 
+Example The linked image shows a gradually improved screen design for collecting student data
+
+
+
+
+Probability based models, Monte Carlo simulation 
+2. Agent Based Models; cellular automata, Game of Life, segregation models 
+3.  ODE-based Models, simulating behaviors over time
+4. Estimating Model Parameters from Data 
+5. Modeling Networks 
+6.  Modeling Networks II 
+7. Optimization on Simulation: Models that Learn (Genetic Algorithms, Reinforcement
+Learning) 
+8. Geo-Spatial Modeling & Analysis 
